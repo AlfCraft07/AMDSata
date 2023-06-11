@@ -15,7 +15,7 @@ Patched version of SATA-unsupported.kext to allow macOS to detect AMD SATA contr
 3. Expand "IDE ATA/ATAPI controllers" and open "Standard AHCI SATA controller"
 4. Go to the Details tab
 5. From the dropdown menu, select Hardware IDs.
-6. In the box underneath, you will find a string starting with PCI\VEN_****&DEV_****.
+6. In the box underneath, you will find a string starting with PCI\VEN_####&DEV_####.
 7. Open the kext's Info.plist file and go to the AMD-AHCI-unsupported section under IOKitPersonalities.
 8. In this section, open the sub-section called IONameMatch.
 9. Change the value of the string called 0. Between "pci" and the comma put what comes between VEN_ and the &, and after the comma put what comes after DEV_.
