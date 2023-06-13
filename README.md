@@ -1,6 +1,6 @@
 # AMD-SATA-Controller-Ryzentosh
 
-Patched version of SATA-unsupported.kext to allow macOS to detect AMD SATA controller and disks connected to it. Tested on macOS 12 Monterey and 13 Ventura. Use recommended only if your computer can't read internal Disks when in macOS.
+Patched version of SATA-unsupported.kext to allow macOS to detect AMD SATA controller and disks connected to it. Tested on macOS 12 Monterey and 13 Ventura. Use recommended only if your computer can't read internal disks when in macOS.
 
 # HOW TO USE
 * OpenCore
