@@ -6,8 +6,9 @@ Patched version of SATA-unsupported.kext to allow macOS to detect AMD SATA contr
 * OpenCore
 1. Download kext
 2. Copy it to /EFI/OC/Kexts
-3. Open config.plist with ProperTree and perform OC Clean Snapshot
-4. Boot macOS and the disk should be found
+3. Open config.plist and perform OC Clean Snapshot
+4. Save config.plist and close it
+5. Boot macOS and the disk should be found
 
 # IF YOUR DISK STILL ISN'T VISIBLE
 1. Boot into Windows
