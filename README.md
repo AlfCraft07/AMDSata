@@ -32,3 +32,5 @@ OR
 6. Paste the value copied from Hackintool into the "0" string.
 7. Save the file and reboot
 8. It should work now!
+
+Based on RehabMan's SATA-unsupported.kext.
