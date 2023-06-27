@@ -3,10 +3,10 @@
 Patched version of SATA-unsupported.kext to allow macOS to detect AMD SATA controller and disks connected to it. Use recommended only if your computer can't read internal disks when in macOS.
 
 Known working in:
-11.x Big Sur - 13.x Ventura
+11.x Big Sur - 14.x Sonoma
 
 May be working in:
-10.13 High Sierra, 10.14 Mojave, 10.15 Catalina, 14.x Sonoma
+10.13 High Sierra, 10.14 Mojave, 10.15 Catalina
 
 # HOW TO USE
 * OpenCore
