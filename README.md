@@ -40,3 +40,5 @@ OR
 8. It should work now!
 
 Based on RehabMan's SATA-unsupported.kext.
+
+Note: Create an issue if your controller isn't supported. It'll be very pleasant for me, and I'll add you controller right away!
