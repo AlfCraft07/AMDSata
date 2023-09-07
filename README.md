@@ -6,7 +6,7 @@ Known working in:
 11.x Big Sur - 14.x Sonoma
 
 May be working in:
-10.13 High Sierra, 10.14 Mojave, 10.15 Catalina
+10.15 Catalina and older
 
 # HOW TO USE
 * OpenCore
