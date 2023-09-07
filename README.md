@@ -1,6 +1,6 @@
 # AMD-SATA-Controller-Ryzentosh
 
-Patched version of SATA-unsupported.kext to allow macOS to detect AMD SATA controller and disks connected to it. Use recommended only if your computer can't read internal disks when in macOS.
+Patched version of SATA-unsupported.kext to allow macOS to detect AMD SATA controller and disks connected to it. Use recommended only if your computer can't read all or some internal disks in macOS.
 
 Known working in:
 11.x Big Sur - 14.x Sonoma
@@ -25,7 +25,7 @@ May be working in:
 6. In the box underneath, you will find a string starting with PCI\VEN_####&DEV_####.
 7. Open the kext's Info.plist file and go to the AMD-AHCI-unsupported section under IOKitPersonalities.
 8. In this section, open the sub-section called IONameMatch.
-9. Change the value of the string called 0. Between "pci" and the comma put what comes between VEN_ and the &, and after the comma put what comes after DEV_.
+9. Change the value of the string called 0. Between "pci" and the comma put the 4 characters that come between VEN_ and the &, and after the comma put the 4 characters that come after DEV_.
 10. Save the file and reboot
 11. It should work now!
 
