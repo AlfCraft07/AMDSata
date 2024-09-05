@@ -1,6 +1,6 @@
 # AMDSata
 
-Patched version of SATA-unsupported.kext to allow macOS to detect AMD SATA controller and disks connected to it. Use recommended only if your computer can't read all or some internal disks in macOS.
+Patched version of SATA-unsupported.kext to allow macOS to detect SATA controllers used by AMD PCs. Use recommended only if your computer can't read all or some internal disks in macOS.
 
 Known working in:
 11.x Big Sur - 15.x Sequoia
@@ -12,7 +12,7 @@ May be working in:
 * OpenCore
 1. Download kext
 2. Copy it to /EFI/OC/Kexts
-3. Open config.plist and perform OC Clean Snapshot
+3. Open config.plist and perform OC Snapshot
 4. Save config.plist and close it
 5. Boot macOS and the disk should be found
 
