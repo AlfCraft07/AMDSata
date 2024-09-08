@@ -8,6 +8,8 @@ Known working in:
 May be working in:
 10.15 Catalina and older
 
+This kext has no executable, it just consists of an Info.plist file that adds the missing entries for the AMD SATA controller device ID to the macOS AppleAHCIPort driver.
+
 # HOW TO USE
 * OpenCore
 1. Download the source code by clicking Code and then Download ZIP. You will find the kext in its folder.
