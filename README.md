@@ -10,7 +10,7 @@ May be working in:
 
 # HOW TO USE
 * OpenCore
-1. Download kext
+1. Download the source code by clicking Code and then Download ZIP. You will find the kext in its folder.
 2. Copy it to /EFI/OC/Kexts
 3. Open config.plist and perform OC Snapshot
 4. Save config.plist and close it
