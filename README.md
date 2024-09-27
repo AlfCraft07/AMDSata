@@ -37,7 +37,7 @@ OR
 3. Find the SATA controller. You should be able to find it by the "Device Name" and "Subclass" columns.
 4. From the "IOReg IOName" column, copy the value related to the SATA controller.
 5. Now open the kext's Info.plist file, and open IOKitPersonalities, then AMD-AHCI-unsupported and finally IONameMatch.
-6. Paste the value copied from Hackintool into the "0" string.
+6. Paste the value copied from Hackintool into a new string called "1".
 7. Save the file and reboot
 8. It should work now!
 
