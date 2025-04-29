@@ -30,8 +30,17 @@
 			<string>AppleIntelPchSeriesAHCI</string>
 			<key>IONameMatch</key>
 			<array>
+				<string>pci1022,7801</string>
+				<string>pci1022,7804</string>
 				<string>pci1022,7901</string>
+				<string>pci1022,7904</string>
+				<string>pci1022,43b5</string>
+				<string>pci1022,43b6</string>
+				<string>pci1022,43b7</string>
+				<string>pci1022,43b8</string>
+				<string>pci1022,43c8</string>
                                 <string>pci1022,43eb</string>
+				<string>pci1022,43f6</string>
 			</array>
 			<key>IOProbeScore</key>
 			<integer>900</integer>
