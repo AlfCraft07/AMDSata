@@ -39,7 +39,7 @@
 				<string>pci1022,43b7</string>
 				<string>pci1022,43b8</string>
 				<string>pci1022,43c8</string>
-                                <string>pci1022,43eb</string>
+                <string>pci1022,43eb</string>
 				<string>pci1022,43f6</string>
 			</array>
 			<key>IOProbeScore</key>
